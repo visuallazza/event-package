@@ -1,0 +1,17 @@
+{
+    "name": "lashalobjanidze/interfaces",
+    "description": "events/interfaces",
+    "autoload": {
+        "psr-4": {
+            "Events\\Interfaces\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lasha"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.12"
+    }
+}
