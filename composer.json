@@ -1,9 +1,9 @@
 {
-    "name": "lashalobjanidze/interfaces",
+    "name": "events/transport-package",
     "description": "events/interfaces",
     "autoload": {
         "psr-4": {
-            "Events\\Interfaces\\": "src/"
+            "Events\\Transport\\": "src/"
         }
     },
     "authors": [
@@ -12,6 +12,10 @@
         }
     ],
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.12"
+        "friendsofphp/php-cs-fixer": "^3.12",
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "spatie/data-transfer-object": "^3.9"
     }
 }

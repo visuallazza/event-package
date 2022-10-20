@@ -1,6 +1,6 @@
 <?php
 
-namespace Events\Repositories;
+namespace Events\Transport\Repositories;
 
 interface EventRepository
 {
