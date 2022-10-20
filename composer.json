@@ -1,5 +1,5 @@
 {
-    "name": "events/transport-package",
+    "name": "events/event-package",
     "description": "events/interfaces",
     "autoload": {
         "psr-4": {
