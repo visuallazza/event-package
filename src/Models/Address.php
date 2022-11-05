@@ -2,7 +2,9 @@
 
 namespace Events\Transport\Models;
 
-class Address
+use Spatie\DataTransferObject\DataTransferObject;
+
+class Address extends DataTransferObject
 {
     public string $street;
     public ?string $houseNumber;
