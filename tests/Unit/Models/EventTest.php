@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace Unit\Models;
 
 use Events\Transport\Models\Event;
 use PHPUnit\Framework\TestCase;

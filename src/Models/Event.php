@@ -7,7 +7,8 @@ use Spatie\DataTransferObject\DataTransferObject;
 class Event extends DataTransferObject
 {
     public string $title;
-    public string $location;
-    public int $datetime;
-    public string $category;
+    public Location $location;
+    public ?Band $band;
+    public int $timestamp;
+    public ?string $category;
 }
