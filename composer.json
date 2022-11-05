@@ -16,6 +16,7 @@
         "phpunit/phpunit": "^9.5"
     },
     "require": {
+        "php": ">=8.0",
         "spatie/data-transfer-object": "^3.9"
     }
 }
