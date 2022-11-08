@@ -8,7 +8,11 @@ class Event extends DataTransferObject
 {
     public string $title;
     public Location $location;
-    public ?Band $band;
     public int $timestamp;
+    public ?Band $band;
     public ?string $category;
+    public ?string $description;
+    public ?Links $links;
+    public ?Contact $host;
+    public ?Contact $organizer;
 }
