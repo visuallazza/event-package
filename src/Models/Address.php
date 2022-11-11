@@ -7,7 +7,7 @@ use Spatie\DataTransferObject\DataTransferObject;
 class Address extends DataTransferObject
 {
     public string $street;
-    public ?string $houseNumber;
+    public string $houseNumber;
     public string $city;
     public string $zip;
     public ?string $addendum;

@@ -8,6 +8,6 @@ class Location extends DataTransferObject
 {
     public string $name;
     public ?string $description;
-    public ?string $link;
-    public ?Address $address;
+    public ?Contact $contact;
+    public ?Links $links;
 }
