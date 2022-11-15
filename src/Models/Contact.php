@@ -2,7 +2,9 @@
 
 namespace Events\Transport\Models;
 
-class Contact
+use Spatie\DataTransferObject\DataTransferObject;
+
+class Contact extends DataTransferObject
 {
     public string $name;
     public ?Address $address;
