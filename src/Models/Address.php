@@ -13,6 +13,5 @@ class Address extends DataTransferObject
     public ?string $addendum;
     public ?string $region;
     public ?string $country;
-    public ?string $latitude;
-    public ?string $longitude;
+    public ?GeoLocation $geoLocation;
 }
