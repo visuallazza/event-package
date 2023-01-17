@@ -2,8 +2,10 @@
 
 namespace Events\Transport\Models;
 
-class GeoLocation
+use Spatie\DataTransferObject\DataTransferObject;
+
+class GeoLocation extends DataTransferObject
 {
-    public string $latitude;
-    public string $longitude;
+    public float $latitude;
+    public float $longitude;
 }
