@@ -2,7 +2,9 @@
 
 namespace Events\Transport\Models;
 
-class Details
+use Spatie\DataTransferObject\DataTransferObject;
+
+class Details extends DataTransferObject
 {
     public ?string $description;
     public ?string $image;
