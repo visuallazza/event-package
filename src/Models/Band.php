@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Events\Transport\Models;
 
 use Spatie\DataTransferObject\DataTransferObject;

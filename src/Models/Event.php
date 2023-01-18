@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Events\Transport\Models;
 
 use Spatie\DataTransferObject\DataTransferObject;
@@ -8,12 +10,12 @@ class Event extends DataTransferObject
 {
     public string $title;
     public ?string $subTitle;
+    public ?string $description;
+    public ?string $category;
     public ?Image $image;
     public Location $location;
-    public int $timestamp;
+    public PointInTime $pointInTime;
     public ?Band $band;
-    public ?string $category;
-    public ?string $description;
     public ?Links $links;
     public ?Contact $host;
     public ?Contact $organizer;

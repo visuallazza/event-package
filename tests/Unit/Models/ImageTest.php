@@ -4,25 +4,25 @@ declare(strict_types=1);
 
 namespace Unit\Models;
 
-use Events\Transport\Models\Band;
+use Events\Transport\Models\Image;
 use PHPUnit\Framework\TestCase;
 
-class BandTest extends TestCase
+class ImageTest extends TestCase
 {
     /** @dataProvider createProvider */
     public function testCreate(array $dataSet): void
     {
-        $band = new Band($dataSet);
-        $this->assertInstanceOf(Band::class, $band);
+        $band = new Image($dataSet);
+        $this->assertInstanceOf(Image::class, $band);
     }
 
     public function createProvider(): array
     {
         return [
-            'Minimal Case' => [['name' => 'the-title']],
+            'Minimal Case' => [['name' => 'the-name']],
             'Medium Case' => [[
                 'name' => 'the-title',
-                'description' => 'the-description',
+                'url' => 'the-url.de',
                 'contact' => [
                     'name' => 'the-name',
                 ],
