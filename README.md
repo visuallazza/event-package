@@ -1,4 +1,4 @@
-# event-package
+# Event package
 This package is intended to serve as a uniform handling of events.
 
 # Install dependencies
