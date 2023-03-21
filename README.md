@@ -1,13 +1,6 @@
 # Event package
 This package is intended to serve as a uniform handling of events.
 
-# Install dependencies
-Use next command to install composer dependencies:
-
-```
-make
-```
-
 # Code styling
 This package follows the PSR-12 coding standard and the PSR-4 autoload standard.
 
